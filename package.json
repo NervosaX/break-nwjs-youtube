@@ -1,8 +1,13 @@
 {
-	"name": "YouTube test",
+	"name": "youtube-test",
 	"version": "0.0.1",
-	"main": "index.html",
+	"main": "main.js",
 	"single-instance": true,
-	"chromium-args": "--disable-raf-throttling --enable-spell-checking --allow-file-access-from-files --unlimited-storage --allow-file-access --enable-virtual-keyboard"
+	"chromium-args": "--disable-raf-throttling --enable-spell-checking --allow-file-access-from-files --unlimited-storage --allow-file-access --enable-virtual-keyboard",
+	"scripts": {
+		"start": "electron ."
+	},
+	"dependencies": {
+		"electron": "^19.0.7"
+	}
 }
-
